@@ -1,20 +1,8 @@
-
-body{
-    background-color: antiquewhite;
-}
-
-.pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-
 /* ... Previous CSS rules ... */
 
 /* Nav bar styling */
 nav {
-    background-color:grey;
+    background-color: blueviolet;
     color: black;
     display: flex;
     justify-content: space-between;
@@ -37,12 +25,5 @@ nav {
     text-decoration: none;
     color: white;
 }
-div{
-    text-align: center;
-    text-decoration: wavy;
-    color: black;
-}
 
 /* ... Rest of your CSS rules ... */
-
-

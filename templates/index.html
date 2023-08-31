@@ -1,32 +1,16 @@
-<html>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style2.css') }}">
-</head>
+{% extends 'base.html' %}
 
-<body>
-    <header>
-        <a href="/about"><b>
-                <h2>About us<b></h2></a>
+{% block content %}
+<div class="pic">
+    <img src="{{ url_for('static', filename='assets/pic2.jpg') }}" />
+</div>
 
-        <a href="/routine"><b>
-                <h2>Routines</h2>
-            </b></a>
+<P>
+<h1> Get ready to start your day!!</h1>
+<H1>Lets plan your day together</H1>
+</P>
 
-        <a href="/modify"><b>
-                <h2>Modify Your Task</h2>
-            </b></a>
+{% endblock %}
 
-        <div class="pic">
-            <img src="{{ url_for('static', filename='assets/pic2.jpg') }}" />
-        </div>
-    </header>
-    <P>
-    <h1> Get ready to start your day!!</h1>
-    <H1>Lets plan your day together</H1>
-    </P>
-
-    <!-- <img src="../assets/anime.jpg"> -->
-</body>
-
-</html>
+<!-- <img src="../assets/anime.jpg"> -->

@@ -1,8 +1,6 @@
-<html>
-    <head>
-        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='rou.css') }}">
-    </head>
-    <body>
+{% extends 'base.html' %}
+
+{% block content %}
     
     
     <header>
@@ -39,9 +37,5 @@
             <li>Take your Bath</li>
         </ul>
     </nav>
-    <footer>
-        <h3>Yayy you did it!!!...</h3>
-        <a href="/"><b><h2>Back to homepage</h2></b></a>
-    </footer>    
-    </body>
-</html>
+        <h3>Yayy you did it!!!...</h3>    
+    {% endblock %}
