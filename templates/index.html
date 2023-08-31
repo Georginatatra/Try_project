@@ -1,21 +1,32 @@
 <html>
-    <head>
-        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='style2.css') }}">
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+
+<body>
     <header>
-        <a href="/about"><b><h2>About us<b></h2></a>
-        
-        <a href="/routine"><b><h2>Routines</h2></b></a>
-    <div class="pic">
-        <img src="{{ url_for('static', filename='assets/pic2.jpg') }}" />
-    </div>
+        <a href="/about"><b>
+                <h2>About us<b></h2></a>
+
+        <a href="/routine"><b>
+                <h2>Routines</h2>
+            </b></a>
+
+        <a href="/modify"><b>
+                <h2>Modify Your Task</h2>
+            </b></a>
+
+        <div class="pic">
+            <img src="{{ url_for('static', filename='assets/pic2.jpg') }}" />
+        </div>
     </header>
-<P>
+    <P>
     <h1> Get ready to start your day!!</h1>
     <H1>Lets plan your day together</H1>
-</P>
-        
-  <!-- <img src="../assets/anime.jpg"> -->
-    </body>
+    </P>
+
+    <!-- <img src="../assets/anime.jpg"> -->
+</body>
+
 </html>
